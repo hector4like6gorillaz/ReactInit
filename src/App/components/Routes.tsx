@@ -1,5 +1,5 @@
 
-import { Redirect, Route, Switch } from "react-router";
+import { Redirect, Route, Switch } from "react-router-dom";
 import Probanding from "../../Pages/Pruebas/Probanding";
 
 const Routes = () => {
