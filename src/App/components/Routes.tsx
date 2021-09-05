@@ -1,6 +1,7 @@
 
 import { Redirect, Route, Switch } from "react-router-dom";
-import Probanding from "../../Pages/Pruebas/Probanding";
+import Home from "../../Pages/Home/Home";
+
 
 const Routes = () => {
 
@@ -10,7 +11,7 @@ const Routes = () => {
             <Switch>
                 {/* Home */}
                 <Route exact path="/home">
-                    {senti ? <Probanding /> : <Redirect to="/404" />}
+                    {senti ? <Home /> : <Redirect to="/404" />}
                 </Route>
 
 
